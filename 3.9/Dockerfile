@@ -1,4 +1,4 @@
-FROM lambci/lambda:build-python3.9
+FROM mlupin/docker-lambda:python3.9-build
 
 RUN pip install -t /opt/python/ psycopg2-binary
 
